@@ -33,7 +33,7 @@ namespace MathsGame
                 switch (gameSelected)
                 {
                     case "v":
-                        Helpers.PrintGames();
+                        GameHistory.PrintGames();
                         break;
                     case "a":
                         gameEngine.AdditionGame("Addition game");

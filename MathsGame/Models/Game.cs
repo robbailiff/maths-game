@@ -7,7 +7,7 @@ namespace MathsGame.Models
         internal int Score { get; set; }
         internal DateTime Date { get; set; }
         internal GameType Type { get; set; }
-        internal Difficulty Difficulty { get; set; }
+        internal GameDifficulty Difficulty { get; set; }
 
     }
 
@@ -19,7 +19,7 @@ namespace MathsGame.Models
         Division
     }
 
-    internal enum Difficulty
+    internal enum GameDifficulty
     {
         Easy = 1,
         Normal = 10,

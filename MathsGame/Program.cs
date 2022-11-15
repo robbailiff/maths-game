@@ -10,7 +10,7 @@ namespace MathsGame
 
             var date = DateTime.UtcNow;
 
-            string name = Helpers.GetName();
+            string name = Validation.GetName();
 
             menu.ShowMenu(name, date);
 
